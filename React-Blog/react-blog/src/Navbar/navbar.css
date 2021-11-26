@@ -1,0 +1,38 @@
+.nav {
+    width: 100%;
+    background-color:rgb(0, 0, 0);
+    /* position: sticky; */
+    top: 0;
+    display: flex;
+    align-items: center;
+    
+}
+
+.topLeft, .topRight {
+    flex: 8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.navBarList{
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+
+.navBarItem {
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}

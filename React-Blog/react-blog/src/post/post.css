@@ -1,0 +1,9 @@
+.postAuthor, .postDate, .postTitle {
+    display: flex;
+}
+
+
+.postImg {
+    height: 250px;
+    width: 400px;
+}
